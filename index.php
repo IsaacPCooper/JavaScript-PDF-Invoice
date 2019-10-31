@@ -6,7 +6,8 @@
 <main>
   
   <div align="center"class="topContent">
-  <button type="submit" name="checkin-submit" class="btn grey darken-2">Check In!</button>
+  <button type="submit" name="checkin-submit" class="btn grey darken-2">Generate Invoice</button>
+<br>
    <?php 
    echo "Current Date: $formatDate<br>"; 
    ?>
