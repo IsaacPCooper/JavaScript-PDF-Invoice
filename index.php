@@ -5,7 +5,9 @@
 
 <main>
   
-  <div align="center"class="topContent">
+  <div align="center">
+<label>Price Paid</label> <br>
+<input type="text"> <br>
   <button type="submit" name="checkin-submit" class="btn grey darken-2">Generate Invoice</button>
 <br>
    <?php 
