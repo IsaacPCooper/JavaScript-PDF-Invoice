@@ -14,7 +14,7 @@
             <input placeholder="£X.XX" id="price_inline" type="text" class="validate"maxlength="8">
             </div>
           </div>
-  <button type="submit" name="checkin-submit" class="btn grey darken-2">Generate Invoice</button>
+  <button class="btn grey darken-2">Generate Invoice</button>
   </form>
   <br>
    <?php 
