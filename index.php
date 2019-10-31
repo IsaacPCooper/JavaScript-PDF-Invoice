@@ -6,17 +6,15 @@
 <main>
   
   <div align="center">
-<label>Price Paid</label> <br>
-<input type="text"> <br>
+<form>
+Price Paid: <input type="text" size="6" maxlength="6"> <br>
   <button type="submit" name="checkin-submit" class="btn grey darken-2">Generate Invoice</button>
+  </form>
 <br>
    <?php 
    echo "Current Date: $formatDate<br>"; 
    ?>
   </div>
-</div>
-</div>
-</form>
 </main>
 
  <?php
