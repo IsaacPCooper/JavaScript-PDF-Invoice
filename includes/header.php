@@ -21,7 +21,7 @@ $formatTime = date("H:i:s");
 <!DOCTYPE html>
  <html>
    <head>
-     <title>PHP Brief</title>
+     <title>JS Invoice</title>
      <link
       rel="icon"
       type="image/jpg"
@@ -64,7 +64,7 @@ $formatTime = date("H:i:s");
        <!--Navbar Begin-->
        <nav>
          <div class="nav-wrapper grey darken-2">
-           <a href="index.php" class="align center brand-logo gfont1">PHP Brief</a>
+           <a href="index.php" class="align center brand-logo gfont1">JavaScript Invoice</a>
          </div>
        </nav>
        </body>
