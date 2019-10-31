@@ -14,16 +14,9 @@
             <input placeholder="£X.XX" id="price_inline" type="text" class="validate"maxlength="8">
             </div>
           </div>
-          <div class="col s12">
-          Website Used:
-          <div class="input-field inline">
-            <input placeholder="eBay/Amazon" id="price_inline" type="text" class="validate">
-            </div>
-          </div>
-        </div>
   <button type="submit" name="checkin-submit" class="btn grey darken-2">Generate Invoice</button>
   </form>
-<br>
+  <br>
    <?php 
    echo "Current Date: $formatDate<br>"; 
    ?>
