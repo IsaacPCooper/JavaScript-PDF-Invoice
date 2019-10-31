@@ -11,13 +11,13 @@
         <div class="col s12">
           Price Paid:
           <div class="input-field inline">
-            <input placeholder="£X.XX" id="price_inline" type="price" class="validate"maxlength="8">
+            <input placeholder="£X.XX" id="price_inline" type="text" class="validate"maxlength="8">
             </div>
           </div>
           <div class="col s12">
           Website Used:
           <div class="input-field inline">
-            <input placeholder="eBay/Amazon" id="price_inline" type="price" class="validate">
+            <input placeholder="eBay/Amazon" id="price_inline" type="text" class="validate">
             </div>
           </div>
         </div>
