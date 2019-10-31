@@ -5,13 +5,13 @@
 
 <main>
   
-  <div align="center">
+<div align="center">
 <form>
 <div class="row">
         <div class="col s12">
           Price Paid:
           <div class="input-field inline">
-            <input placeholder="£X.XX" id="price_inline" type="price" class="validate">
+            <input placeholder="£X.XX" id="price_inline" type="price" class="validate"maxlength="8">
             </div>
           </div>
           <div class="col s12">
@@ -21,7 +21,6 @@
             </div>
           </div>
         </div>
-      </div>
   <button type="submit" name="checkin-submit" class="btn grey darken-2">Generate Invoice</button>
   </form>
 <br>
