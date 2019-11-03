@@ -42,7 +42,7 @@
    function printPDF() {
      pdf.text(10,10, `You have paid £ ${input.value}`);
 
-     pdf.open();
+     pdf.save();
    }
    </script>
   </div>
