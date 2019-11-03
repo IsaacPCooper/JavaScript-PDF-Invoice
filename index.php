@@ -50,9 +50,9 @@
 
    //perform print PDF fucntion w/ formatting
    function printPDF() {
-     pdf.text(10,10, `Date Of Creation: ${formatted_date}`);
-     pdf.text(10,20, `You have paid £ ${input.value}`);
-     pdf.text(10,30, `We will pay your chosen charity £ ${input.value*0.1}`);
+     pdf.text(10,10, `Invoice Date: ${formatted_date}`);
+     pdf.text(10,20, `Price paid: £ ${input.value}`);
+     pdf.text(10,30, `10% Donation:  £ ${input.value*0.1}`);
 
 
      pdf.setProperties({
