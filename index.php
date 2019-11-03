@@ -12,8 +12,7 @@
           Price Paid:
           <div class="input-field inline">
             <input id="txtChar"  onkeypress="return isNumberKey(event)" placeholder="0.00"  
-            type="text" class="validate" name="txtChar" maxlength="8"
-            pattern="^\\$?(([1-9](\\d*|\\d{0,2}(,\\d{3})*))|0)(\\.\\d{1,2})?$">
+            type="text" class="validate" name="txtChar" maxlength="8">
             </div>
           </div>
   <button class="btn grey darken-2">Generate Invoice</button>
