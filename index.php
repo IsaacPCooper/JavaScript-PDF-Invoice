@@ -18,17 +18,16 @@
           </div>
   <button class="btn grey darken-2">Generate Invoice</button>
   </form>
+  <script 
+  src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" 
+  integrity="sha256-gJWdmuCRBovJMD9D/TVdo4TIK8u5Sti11764sZT1DhI=" 
+  crossorigin="anonymous">
+  </script>
   <br>
    <?php 
    echo "Current Date: $formatDate<br>"; 
    ?>
-   <script>
-   src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"
-   integrity="sha256-vIL0pZJsOKSz76KKVCyLxzkOT00vXs+Qz4fYRVMoDhw="
-   crossorigin="anonymous"
-   </script>
-   
-   <script>
+  <script>
    const pdf = new jsPDF();
 
 
