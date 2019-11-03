@@ -36,7 +36,9 @@
    button.addEventListener('click', printPDF)
 
    function printPDF() {
-     console.log('test')
+     pdf.text(10,10, 'Yay PDF!');
+
+     pdf.save();
    }
    </script>
   </div>
