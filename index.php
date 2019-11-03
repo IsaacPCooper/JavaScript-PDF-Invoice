@@ -34,7 +34,7 @@
    let button = document.querySelector('button');
 
    // select the input
-   let button = document.querySelector('input');
+   let input = document.querySelector('input');
 
    button.addEventListener('click', printPDF)
 
