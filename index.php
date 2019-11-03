@@ -16,9 +16,9 @@
             </div>
           </div>
           <div class="col s12">
-          Place Purchased:
-          <div class="input-field inline">
-          <select>
+          <label>Place Of Transation</label>
+          <div class="input-field">
+          <select class="browser-default">
             <option value="" disabled selected>Choose your option</option>
             <option value="1">eBay</option>
             <option value="2">Amazon</option>
