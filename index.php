@@ -39,7 +39,7 @@
    button.addEventListener('click', printPDF)
 
    function printPDF() {
-     pdf.text(10,10, `You have paid ${input.value}$`);
+     pdf.text(10,10, 'You have paid ${input.value}$');
 
      pdf.save();
    }
