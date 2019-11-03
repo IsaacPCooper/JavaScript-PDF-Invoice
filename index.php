@@ -15,6 +15,8 @@
             type="text" class="validate" maxlength="8">
             </div>
           </div>
+          </div>
+<div class="row">
           <div class="col s12">
           <label>Place Of Transation</label>
           <div class="input-field">
@@ -24,7 +26,8 @@
             <option value="2">Amazon</option>
           </select>
             </div>
-          </div>
+</div>
+          
   <button class="btn grey darken-2">Generate Invoice</button>
   </form>
   <script 
