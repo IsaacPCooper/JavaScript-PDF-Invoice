@@ -35,12 +35,14 @@
    // select the input
    let input = document.querySelector('input');
 
+   var today = new Date();
+   var newdat= today;
   // Listen for the users click
    button.addEventListener('click', printPDF)
 
    //perform print PDF fucntion w/ formatting
    function printPDF() {
-     pdf.text(10,10, `The Current Date is ${formatDate}`);
+     pdf.text(10,10, `This Invoice was created on ${newdat}`);
      pdf.text(10,20, `You have paid £ ${input.value}`);
      pdf.text(10,30, `We will pay your chosen charity £ ${input.value*0.1}`);
 
