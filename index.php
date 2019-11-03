@@ -30,13 +30,16 @@
   <script>
    const pdf = new jsPDF();
 
-
+  // select the button
    let button = document.querySelector('button');
+
+   // select the input
+   let button = document.querySelector('input');
 
    button.addEventListener('click', printPDF)
 
    function printPDF() {
-     pdf.text(10,10, 'Yay PDF!');
+     pdf.text(10,10, `You have paid ${input.value}$`);
 
      pdf.save();
    }
