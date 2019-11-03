@@ -42,7 +42,12 @@
    function printPDF() {
      pdf.text(10,10, `You have paid £ ${input.value}`);
 
-     pdf.save();
+
+     pdf.setProperties({
+    title: "Generated Invoice"
+      });
+     //pdf.save();
+     pdf.output('dataurlnewwindow');
    }
    </script>
   </div>
