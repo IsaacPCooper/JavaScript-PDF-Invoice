@@ -28,6 +28,10 @@
    ?>
   <script>
    const pdf = new jsPDF();
+    pdf.setFont("roboto");
+    pdf.setFontType("bold");
+    pdf.setFontSize(9);
+
 
   // select the button
    let button = document.querySelector('button');
