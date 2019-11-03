@@ -6,7 +6,11 @@ A demonstration of an invoice creation system using JsPDF, the tool is able to w
 
 
 ## User Guide:
-
+* A price is input that was paid for a transaction
+* The price is posted to a PDF document
+* A PDF Document will be opened in a new tab
+* A calculation of the donation the company makes to charity is displayed on the PDF
+* The date of the invoice is recorded at the top of the PDF Document.
 
 ## Tech Used:
 * [Visual Studio Code](https://code.visualstudio.com/) - Industry Standard IDE.
