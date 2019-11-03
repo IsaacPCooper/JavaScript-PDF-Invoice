@@ -11,9 +11,8 @@
         <div class="col s12">
           Price Paid:
           <div class="input-field inline">
-          <span class="currency">£</span>
-            <input placeholder="£0.00" id="amount" 
-            type="text" class="validate" maxlength="8"
+            <input placeholder="£X.XX" id="price_inline" 
+            type="text" class="validate"maxlength="8"
             pattern="^\\$?(([1-9](\\d*|\\d{0,2}(,\\d{3})*))|0)(\\.\\d{1,2})?$">
             </div>
           </div>
