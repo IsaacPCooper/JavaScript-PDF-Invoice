@@ -42,7 +42,8 @@
    function printPDF() {
      pdf.text(10,10, `You have paid £ ${input.value}`);
 
-     pdf.save();
+     doc.output('dataurlnewwindow');
+     //pdf.save();
    }
    </script>
   </div>
