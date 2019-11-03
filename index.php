@@ -11,8 +11,8 @@
         <div class="col s12">
           Price Paid:
           <div class="input-field inline">
-            <input placeholder="0.00" id="price_inline" 
-            type="text" class="validate" maxlength="8"
+            <input id="txtChar"  onkeypress="return isNumberKey(event)" placeholder="0.00"  
+            type="text" class="validate" name="txtChar" maxlength="8"
             pattern="^\\$?(([1-9](\\d*|\\d{0,2}(,\\d{3})*))|0)(\\.\\d{1,2})?$">
             </div>
           </div>
@@ -36,8 +36,10 @@
    // select the input
    let input = document.querySelector('input');
 
+  // Listen for the users click
    button.addEventListener('click', printPDF)
 
+   //perform print PDF fucntion w/ formatting
    function printPDF() {
      pdf.text(10,10, `You have paid £ ${input.value}`);
 
