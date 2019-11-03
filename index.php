@@ -13,7 +13,7 @@
           <div class="input-field inline">
             <input placeholder="£X.XX" id="price_inline" 
             type="text" class="validate"maxlength="8"
-            pattern="[0-9£.{6,25}">
+            pattern="^\\$?(([1-9](\\d*|\\d{0,2}(,\\d{3})*))|0)(\\.\\d{1,2})?$">
             </div>
           </div>
   <button class="btn grey darken-2">Generate Invoice</button>
