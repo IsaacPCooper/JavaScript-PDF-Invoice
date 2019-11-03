@@ -41,7 +41,7 @@
    //perform print PDF fucntion w/ formatting
    function printPDF() {
      pdf.text(10,10, `You have paid £ ${input.value}`);
-     pdf.text(10,20, `You have paid £ ${input.value}`);
+     pdf.text(10,20, `We will pay your chosen charity £ ${input.value*0.1}`);
 
 
      pdf.setProperties({
