@@ -15,6 +15,16 @@
             type="text" class="validate" maxlength="8">
             </div>
           </div>
+          <div class="col s12">
+          Place Purchased:
+          <div class="input-field inline">
+          <select>
+            <option value="" disabled selected>Choose your option</option>
+            <option value="1">eBay</option>
+            <option value="2">Amazon</option>
+          </select>
+            </div>
+          </div>
   <button class="btn grey darken-2">Generate Invoice</button>
   </form>
   <script 
@@ -33,10 +43,10 @@
     pdf.setFontSize(9);
 
 
-  // select the button
+  // setup button param for later ref
    let button = document.querySelector('button');
 
-   // select the input
+   // setup input param for later ref
    let input = document.querySelector('input');
 
    //Date Formatting (DD-MMM-YYYY)
