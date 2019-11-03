@@ -57,7 +57,18 @@
      pdf.setProperties({
     title: "Generated Invoice"
       });
-     pdf.output('dataurlnewwindow');
+
+    //MOBILE PHONE CHECK V DESKTOP
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+      {
+     var blob = pdf.output();
+     window.open(URL.createObjectURL(blob));
+      }
+    else
+    {
+      pdf.output('dataurlnewwindow');
+    }
+     
    }
    </script>
   </div>
