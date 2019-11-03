@@ -41,12 +41,12 @@
    //perform print PDF fucntion w/ formatting
    function printPDF() {
      pdf.text(10,10, `You have paid £ ${input.value}`);
+     pdf.text(10,20, `You have paid £ ${input.value}`);
 
 
      pdf.setProperties({
     title: "Generated Invoice"
       });
-     //pdf.save();
      pdf.output('dataurlnewwindow');
    }
    </script>
