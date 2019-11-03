@@ -39,14 +39,17 @@
    // select the input
    let input = document.querySelector('input');
 
+   //Date Formatting (DD-MMM-YYYY)
+   const months = ["JAN", "FEB", "MAR","APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
    let current_datetime = new Date()
-   let formatted_date = current_datetime.getFullYear() + "-" + (current_datetime.getMonth() + 1) + "-" + current_datetime.getDate()
-  // Listen for the users click
+   let formatted_date = current_datetime.getDate() + "-" + months[current_datetime.getMonth()] + "-" + current_datetime.getFullYear()
+  
+   // Listen for the users click
    button.addEventListener('click', printPDF)
 
    //perform print PDF fucntion w/ formatting
    function printPDF() {
-     pdf.text(10,10, `This Invoice was created on ${formatted_date}`);
+     pdf.text(10,10, `Date Of Creation: ${formatted_date}`);
      pdf.text(10,20, `You have paid £ ${input.value}`);
      pdf.text(10,30, `We will pay your chosen charity £ ${input.value*0.1}`);
 
