@@ -22,6 +22,24 @@
    <?php 
    echo "Current Date: $formatDate<br>"; 
    ?>
+   <script>
+   src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"
+   integrity="sha256-vIL0pZJsOKSz76KKVCyLxzkOT00vXs+Qz4fYRVMoDhw="
+   crossorigin="anonymous"
+   </script>
+   
+   <script>
+   const pdf = new jsPDF();
+
+
+   let button = document.querySelector('button');
+
+   button.addEventListener('click', printPDF)
+
+   function printPDF() {
+     console.log('test')
+   }
+   </script>
   </div>
 </main>
 
