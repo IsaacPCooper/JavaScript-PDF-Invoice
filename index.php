@@ -39,7 +39,7 @@
    // select the input
    let input = document.querySelector('input');
 
-   var today = new Date("d F Y, h:i:s");
+   var today = new Date(`D m-y`);
    var newdat= today;
   // Listen for the users click
    button.addEventListener('click', printPDF)
