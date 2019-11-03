@@ -11,8 +11,8 @@
         <div class="col s12">
           Price Paid:
           <div class="input-field inline">
-            <input placeholder="£X.XX" id="price_inline" 
-            type="text" class="validate"maxlength="8"
+            <input placeholder="0.00" id="price_inline" 
+            type="text" class="validate" maxlength="8"
             pattern="^\\$?(([1-9](\\d*|\\d{0,2}(,\\d{3})*))|0)(\\.\\d{1,2})?$">
             </div>
           </div>
@@ -39,7 +39,8 @@
    button.addEventListener('click', printPDF)
 
    function printPDF() {
-     pdf.text(10,10, `You have paid ${input.value}£`);
+     pdf.text(10,10, `Date: ${formatDate}`);
+     pdf.text(10,10, `You have paid £ ${input.value}`);
 
      pdf.save();
    }
