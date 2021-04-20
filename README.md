@@ -16,3 +16,4 @@ A demonstration of an invoice creation system using JsPDF, the tool is able to w
 * [Visual Studio Code](https://code.visualstudio.com/) - Industry Standard IDE.
 * [JsPDF](https://parall.ax/products/jspdf) - JsPDF
 * [Git](https://git-scm.com/) - Version Control
+* [Materialize](https://materializecss.com/) - Commonly used CSS Framework.
